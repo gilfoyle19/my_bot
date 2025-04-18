@@ -1,0 +1,10 @@
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+
+    <!--We use xacro:include in a .xacro file to modularize and reuse XML code across multiple files-->
+    <xacro:include filename="robot_core.xacro" />
+
+    <xacro:include filename="gazebo_control.xacro" />
+    
+
+</robot>
